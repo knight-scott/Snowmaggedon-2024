@@ -1,0 +1,31 @@
+.class public final Lcom/northpole/santaswipe/R$string;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/northpole/santaswipe/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "string"
+.end annotation
+
+
+# static fields
+.field public static app_name:I = 0x7f090001
+
+.field public static ek:I = 0x7f090033
+
+.field public static iv:I = 0x7f090037
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
